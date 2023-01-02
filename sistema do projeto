@@ -1,0 +1,59 @@
+=============================================================
+
+
+                           UPDATE
+
+
+==============================================================
+
+-----MENU-----
+1- Jogadores
+2- Times    (if jog >= 5)
+3- Partidas (if time >= 2)
+4- Dados gerais (mostra tudo, organizado por times e jogadores) 
+4- sair
+
+
+-\-\-\-\-\--\-\-\-\-\--\-\-\-
+
+------(Jogadores)------
+1- criar jogador (atk, def, gol) (vai criar realmente um jogador, vai chamar o construtor de jogador e guardar os dados por um get em um txt, ou usar getline com precisão)           ## implementado ##
+2- remover jogador (remove o objeto e txt)    ## falta save ##
+4- exibir jogador (nome jogador? status) (chama o print e n o txt, ou coloca os dados em uma lista no txt para ele conseguir puxar tudo direito) ## falta save ##
+5- sair
+
+
+-\-\-\-\-\--\-\-\-\-\--\-\-\-
+
+------(criar time)------
+1- Criar time (colocar todos os dados do time, e escolher jogadores para já ir colocando os objetos de jogadores no construtor/vector de time).
+exemplo: nome do time? dados? escolha 5 jogadores dessa lista. Time criado com sucesso! (chamar por objeto em time ou por indice do objeto)
+2- mostra times criados
+3- excluir time
+4- sair
+
+(ou faz uma opção criar time, e nela tem criar jogador e entao faz a pergunta para que time ele quer mandar aquele jogador, entao já faz a instancia de time passando jogador como um dos parametros. ou colocar jogadores em listas)
+
+-\-\-\-\-\--\-\-\-\-\--\-\-\-
+
+------(Partidas)------
+1- criar partida (escolha os times) 
+2- iniciar partida
+3- sair
+
+-\-\-\-\-\--\-\-\-\-\--\-\-\-
+
+------(Dados gerais)------
+
+isso vai mostrar os nomes dos times criados ligando a jogadores e tambem os dados das partidas.
+ou seja, chama o metodo print de todas as classes criadas, organizando em um novo metodo print.
+é possivel mostrar os dados especificos chamando por jogador? e etc.
+
+================================================================
+
+1- começar por jogadores, criar um menu inicial teste para o usuario inserir os dados e conseguir criar um objeto de jogador. após isso guardar e manipular esse dados em um txt.
+2- conseguindo fazer isso, basta aplicar o msm para time só q com o desafio adicional de chamar o objeto de jogador dentro de time.
+3- o restante vai ser moldar a main/menu e manipulação do save e alteração dos atributos.
+2- todos as classes vão ter metodos prints com os dados de cada objeto.
+
+
